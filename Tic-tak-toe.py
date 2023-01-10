@@ -37,11 +37,11 @@ def main():
       else:
           take_input('O')
       if counter > 3:
-        winner = check_win()
-        if winner:
-            draw_board()
-            print(winner, 'выиграл!')
-            break
+          winner = check_win()
+          if winner:
+              draw_board()
+              print(winner, 'выиграл!')
+              break
       counter += 1
       if counter > 8:
           draw_board()
